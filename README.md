@@ -23,6 +23,12 @@ BocaBind tests a deliberately narrow first-principles question: can the ligand i
 
 Apo structures, covalent ligands, mmCIF inputs, curved paths, protein flexibility, and ligand rotation are outside `v0.1.1`.
 
+## Pip install
+```bash
+
+pip install bocabind
+```
+
 ## Install locally
 
 ### macOS or Linux
