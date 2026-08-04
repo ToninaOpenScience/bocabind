@@ -4,7 +4,7 @@ Classification is based on the least-obstructed sampled rigid path.
 
 | Classification | Current heuristic rule | Structural meaning |
 |---|---|---|
-| Open / extraction-compatible | Maximum penetration ≤ 0.10 Å | At least one sampled rigid path has no meaningful overlap |
+| Open binding site (extraction-compatible) | Maximum penetration ≤ 0.10 Å | At least one sampled rigid path has no meaningful overlap |
 | Narrowly accessible | Maximum penetration ≤ 0.35 Å and obstruction ≤ 2 Å | Only brief, minor overlap occurs |
 | Partially closed | Maximum penetration ≤ 1.0 Å and obstruction ≤ 6 Å | Local rearrangement would be required |
 | Ligand-accommodated / closed | More severe or extended overlap | No tested rigid path is geometrically compatible |

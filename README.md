@@ -1,5 +1,7 @@
 # bocabind
 
+Determines if a binding site is open or closed for small molecule binding.
+
 Classifies binding-site accessibility by quantifying steric obstruction along rigid ligand-extraction paths from protein–ligand structures.
 
 BocaBind tests a deliberately narrow first-principles question: can the ligand in a supplied holo structure be rigidly withdrawn along a straight path without intersecting the protein? It automatically ranks likely bound ligands, defines the local binding site, samples extraction directions, quantifies van der Waals overlap along each path, identifies blocking residues, and explains the structural classification.
