@@ -1,6 +1,8 @@
 # bocabind
 
-Determines if a binding site is open or closed for small molecule binding.
+From the Tonina Open Science initiative. 
+
+Determines if a protein has an open or closed binding site.
 
 Classifies binding-site accessibility by quantifying steric obstruction along rigid ligand-extraction paths from protein–ligand structures.
 
@@ -24,6 +26,12 @@ BocaBind tests a deliberately narrow first-principles question: can the ligand i
 - Internet access for PDB-ID downloads, or a local PDB file containing a protein and at least one bound, noncovalent small molecule
 
 Apo structures, covalent ligands, mmCIF inputs, curved paths, protein flexibility, and ligand rotation are outside `v0.1.1`.
+
+## Pip install
+```bash
+
+pip install bocabind
+```
 
 ## Install locally
 
@@ -89,7 +97,7 @@ python -m pip install build
 python -m build
 ```
 
-## Analyze a real holo PDB
+## Analyze a real  PDB
 
 Give BocaBind either a four-character RCSB PDB ID:
 
@@ -192,4 +200,4 @@ Contributions should include a test and should not strengthen the scientific cla
 
 ## License and citation
 
-BocaBind is licensed under the [Mozilla Public License 2.0](LICENSE). See [CITATION.cff](CITATION.cff) for citation metadata.
+BocaBind is licensed under the [Apache-2.0 license](LICENSE).
