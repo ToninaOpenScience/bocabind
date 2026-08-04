@@ -1,6 +1,6 @@
 # bocabind
-Classifies binding-site accessibility by quantifying steric obstruction along rigid ligand-extraction paths from protein–ligand structures.
 
+Classifies binding-site accessibility by quantifying steric obstruction along rigid ligand-extraction paths from protein–ligand structures.
 
 BocaBind tests a deliberately narrow first-principles question: can the ligand in a supplied holo structure be rigidly withdrawn along a straight path without intersecting the protein? It automatically ranks likely bound ligands, defines the local binding site, samples extraction directions, quantifies van der Waals overlap along each path, identifies blocking residues, and explains the structural classification.
 
@@ -162,13 +162,13 @@ Downloaded structures are cached in `~/.cache/bocabind/structures` and reused. S
 
 ## Main parameters
 
-| Option | Default | Meaning |
-|---|---:|---|
-| `--directions` | 256 | Straight-line directions sampled on a Fibonacci sphere |
-| `--step-size` | 0.5 Å | Translation increment |
-| `--site-cutoff` | 5.0 Å | Ligand–protein distance used to define site residues |
-| `--clash-tolerance` | 0.80 | Scale factor applied to summed van der Waals radii |
-| `--path-length` | automatic | Distance followed toward the structure exterior, capped at 45 Å |
+| Option              |   Default | Meaning                                                         |
+| ------------------- | --------: | --------------------------------------------------------------- |
+| `--directions`      |       256 | Straight-line directions sampled on a Fibonacci sphere          |
+| `--step-size`       |     0.5 Å | Translation increment                                           |
+| `--site-cutoff`     |     5.0 Å | Ligand–protein distance used to define site residues            |
+| `--clash-tolerance` |      0.80 | Scale factor applied to summed van der Waals radii              |
+| `--path-length`     | automatic | Distance followed toward the structure exterior, capped at 45 Å |
 
 ## Scientific interpretation
 
