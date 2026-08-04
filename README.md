@@ -87,7 +87,7 @@ python -m pip install build
 python -m build
 ```
 
-## Analyze a real holo PDB
+## Analyze a real  PDB
 
 Give BocaBind either a four-character RCSB PDB ID:
 
