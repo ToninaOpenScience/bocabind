@@ -190,4 +190,4 @@ Contributions should include a test and should not strengthen the scientific cla
 
 ## License and citation
 
-BocaBind is licensed under the [Mozilla Public License 2.0](LICENSE). See [CITATION.cff](CITATION.cff) for citation metadata.
+BocaBind is licensed under the [Apache-2.0 license](LICENSE).
