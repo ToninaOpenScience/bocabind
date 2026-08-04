@@ -1,0 +1,19 @@
+name: Scientific interpretation issue
+description: Report an assumption, classification, or interpretation concern
+title: "[Scientific]: "
+labels: ["scientific-review"]
+body:
+  - type: textarea
+    id: system
+    attributes:
+      label: Structure and ligand
+      description: Give the PDB identifier/file provenance and selected ligand.
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: Scientific concern
+    validations:
+      required: true
+
