@@ -1,5 +1,7 @@
 # bocabind
 
+From the Tonina Open Science initiative. 
+
 Determines if a protein has an open or closed binding site.
 
 Classifies binding-site accessibility by quantifying steric obstruction along rigid ligand-extraction paths from protein–ligand structures.
